@@ -1,6 +1,10 @@
 # CS33211 Lab1
 ## Due October 28, 2022
+
+### I tried the best I could with this assignment, not sure if it's 100% correct or complete. 
+
 Programming Assignment #1
+
 In this programming assignment, you must provide the source codes, documents, and examples in detail on Github. They will be counted for the final score. Please submit the link to the project on Github. 
 
 Requirements:
@@ -15,5 +19,7 @@ The producer generates items and puts items onto the table. The consumer will pi
 We expect to use these two programs (producer and consumer) like this:
 
 $ gcc producer.c -pthread -lrt -o producer
+
 $ gcc consumer.c -pthread -lrt -o consumer
+
 $ ./producer & ./consumer &
